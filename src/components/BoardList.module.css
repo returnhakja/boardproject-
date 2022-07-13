@@ -1,0 +1,48 @@
+.span {
+    text-align: center;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    background-color: #d19ecb;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    padding: 20px 20px;
+    color: pink;
+    margin: 10px 10px 10px;
+    border-radius: 6px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #d19ecb;
+}
+.list {
+    position: relative;
+
+    text-align: center;
+    background-color: bisque;
+}
+table {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+table,
+td,
+th {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.thead {
+    background-color: coral;
+}
